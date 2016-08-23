@@ -1,0 +1,147 @@
+@import url(http://fonts.googleapis.com/css?family=Inika:400,700);
+body
+{
+  background: rgb(253,253,253);
+  font-family: 'Inika', serif;
+  letter-spacing: 1px;
+  padding-bottom: 40px;
+}
+.container
+{
+  min-height: 522px;
+  min-width: 320px;
+  width: 65%;
+}
+#brand,.navbar-inverse .nav > li > a{
+  color: rgb(250,250,250);
+  font-family: sans-serif;
+}
+#brand {
+  letter-spacing: 3px;
+  font-size: 1.5em;
+  font-weight: 100;
+}
+.alert{
+  margin:10px 0px 15px 0px;
+  font-size: 16px;
+  padding:15px 5px;
+  text-align: center;
+}
+input.btn.btn-large[type="submit"]{
+  font-weight: 100;
+  letter-spacing: 3px;
+  width:100%;
+  font-size: 16px;
+  font-family: 'Inika', serif;
+}
+footer{
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 5px;
+  margin-top: 13px;
+  color:rgb(250,250,250);
+}
+/*------------home.php---------------*/
+
+#logout-link{
+  color: white;
+  float: right;
+  text-decoration: none;
+  margin: 10px 160px 0 0;
+}
+.rulescontainer{
+  padding:10px 5px 20px 20px;
+  letter-spacing: 1px;
+  border-radius: 7px;
+  background: rgb(242,242,242);
+
+}
+.rulescontainer ul li{
+  font-size: 17px;
+  line-height: 25px;
+}
+.hero-unit h1{
+  font-weight: 100;
+  font-size: 4.0em;
+}
+.text-success{
+  font-weight: 100;
+}
+/*-------------------------------------*/
+
+/*----------------login.php------------*/
+
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+  font-size: 17px;
+  height: auto;
+  margin-bottom: 18px;
+  padding: 10px 10px;
+}
+.form-signin {
+  max-width: 370px;
+  padding: 25px 25px 25px;
+  margin: 40px auto 15px;
+  border-radius: 5px;
+  background-color:rgb(230, 230, 230);
+}
+.form-signin-heading{
+  font-weight: 100;
+  font-size: 2.7em;
+  text-align: center;
+  padding:0px 0px 10px;
+}
+/*----------------------------------------*/
+/*------------------signup.php------------*/
+legend{
+  font-size:2.5em;
+  font-weight: 100;
+  text-align: center;
+  padding: 10px 0px;
+}
+input.btn.btn-large[type="submit"]#signinbutton{
+  width:74%;
+}                  
+.control-label,.radio{
+  font-size: 1.2em;
+}   
+#signform{
+  background-color:rgb(230,230,230);
+  max-width:500px;
+  padding:0px 15px;
+  border-radius: 5px;
+}
+
+.form-horizontal input{
+  width: 70%;
+}
+.form-horizontal select{
+  width: 74%;
+}
+.form-horizontal .control-label{
+  width: 33%;
+}
+.radio input{
+  width: 5%;
+}
+input.btn[type="submit"]{
+  width: 35%;
+}
+/*----------------------------------------*/
+
+/*-------------------admin.php-------------*/
+/*-------------------------------------------*/
+
+/*--------------------edit.php-----------------*/
+
+.form-horizontal textarea{
+  width: 100%;
+}
+.form-horizontal h3{
+  text-align: center;
+  font-style: normal;
+}
+.changebtn{
+  margin-top: 50px;
+  width: 
+}
